@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/**{
+    padding: 0px;
+
+    margin: 0px;
+}*/
+
+div#Física {
+    background-color: rgba(255, 255, 0, 0.427);
+    color: rgb(0, 0, 0);
+}
+div#Matematica {
+    background-color: rgba(255, 0, 0, 0.423);
+    color: black;
+}

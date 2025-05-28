@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursinho pro Enem</title>
+    <link rel="stylesheet" href="estilos/style.css">
     <!--Site criado no dia 26/05/25 as 23:32-->
 </head>
 <body>
@@ -16,42 +17,56 @@
     </nav>
 
     <main> <!-- A Tradução de "main" é "principal" ou "essencial" e esta Tag é usada para definir e englobar justamente isso, o conteúdo principal e essencial do site.-->
-        <!-- A Tag (main) pode ser tradada como a Matéria de Física do nosso site.-->
+        <!-- A Tag (main) pode ser tradada como a Tag que contém todas as Matérias do nosso site.-->
 
-        <article> <!-- A Tag (Article) é usada para representar um conteúdo independente e Autocontido como : Artigo de Blog, Notícias, Postagens de Redes Sóciais mas aqui usaremos para representar os conteúdos existesntes de forma índividual dentro da Matéria de Física.-->
-            <!-- A Tag (article) pode ser tratada como sendo cada conteúdo Individualmente que existe dentro da Matéria de Física-->
+        <div id="Física"> <!-- A Tag (div) é uma Tag usada para Organizar de certa forma o conteúdo de um site mas ela não é uma Tag Semântica-->
+            <!-- A Tag (div) pode ser tradada como a Matéria de Física do nosso site.-->
 
-            <h1>Termodinâmica</h1> <!-- Conteúdo-->
+            <article> <!-- A Tag (Article) é usada para representar um conteúdo independente e Autocontido como : Artigo de Blog, Notícias, Postagens de Redes Sóciais mas aqui usaremos para representar os conteúdos existesntes de forma índividual dentro da Matéria de Física.-->
+                <!-- A Tag (article) pode ser tratada como sendo cada conteúdo Individualmente que existe dentro da Matéria de Física-->
+                <h1>Termodinâmica</h1> <!-- Conteúdo-->
+                <p>A Termodinâmica é a área da Física que estuda as relações entre calor, trabalho, energia e temperatura. Ela busca entender como a energia se transforma de uma forma para outra e como e como isso afeta a Matéria</p>
+                <h2> Transmissão de Energia Térmica</h2>
+                <p>Os corpos/Objetos em temperaturas diferentes buscam sempre se equilibrar para isso eles realizam a Troca de Calor.</p>
+                <picture> <!-- Aqui nos vamos usar a Tag (picture) para impormos um comportamento em uma Imagem.-->
+                    <source media="(max-width: 600px)" srcset="imagens/Telas-Pequenas.jpg"> <!-- Obs: Para que a Tag (picture) funcione corretamente as imagens terão que estar no Formato (jpg) e não poderão ter espaços no nome, se tiver os substitua por (-) ou por (_).-->
+                    <img src="imagens/Telas-Médias-e-Grandes.jpg" alt="Vegeta">
+                </picture>
+                <p>isso ocorre por meio da Transmissão de Energia Térmica, existem três formas de executar a Transmissão de Energia Térmica, sendo elas :</p>
+                <ul>
+                    <li>Por Condução :</li>
+                    <p style="text-indent: 30px;">Acontece em Sólidos a Energia Térmica é passada de Molecula para Molecula</p>
+                    <li>Por Conecção :</li>
+                    <p style="text-indent: 30px;">Acontece em Líquidos ou Gáses</p>
+                    <li>Por Irradiação :</li>
+                    <p style="text-indent: 30px;">Acontece em qualquer estado Físico, Acontece em qualquer estado Físico e não transporta Matéria.</p>
+                </ul>
+                <!-- Typical Device BreakPoints :
+                Pequenas telas : até 600px
+                Celulares : 600px até 768px
+                Tablets : 768px até 992px
+                Desktop : 992px até 1200px
+                Grandes Telas : acima de 1200px-->
+            </article>
+        </div>
 
-            <p>A Termodinâmica é a área da Física que estuda as relações entre calor, trabalho, energia e temperatura. Ela busca entender como a energia se transforma de uma forma para outra e como e como isso afeta a Matéria</p>
+        <div id="Matematica">
+            <!-- A Tag (div) pode ser tradada como a Matéria de Matematica do nosso site.-->
 
-            <h2> Transmissão de Energia Térmica</h2>
+             <article><!-- A Tag (article) pode ser tratada como sendo cada conteúdo Individualmente que existe dentro da Matéria de Física-->
+                <h1>Logaritimo</h1>
+                <p>Logaritimo é o inverso da Potência, quando você vê isso aqui : 2³ = 8</p>
 
-            <p>Os corpos/Objetos em temperaturas diferentes buscam sempre se equilibrar para isso eles realizam a Troca de Calor.</p>
+                <p>O Logaritimo faz o caminho contrário, ele responde à pergunta : "Qual Número elevado a 2 resulta em 8?"</p>
 
-            <picture> <!-- Aqui nos vamos usar a Tag (picture) para impormos um comportamento em uma Imagem.-->
-                <source media="(max-width: 600px)" srcset="imagens/Telas-Pequenas.jpg"> <!-- Obs: Para que a Tag (picture) funcione corretamente as imagens terão que estar no Formato (jpg) e não poderão ter espaços no nome, se tiver os substitua por (-) ou por (_).-->
-                <img src="imagens/Telas-Médias-e-Grandes.jpg" alt="Vegeta">
-            </picture>
+                <p>E a resposta é:</p>
 
-            <p>isso ocorre por meio da Transmissão de Energia Térmica, existem três formas de executar a Transmissão de Energia Térmica, sendo elas :</p>
-            <ul>
-                <li>Por Condução :</li>
-                <p style="text-indent: 30px;">Acontece em Sólidos a Energia Térmica é passada de Molecula para Molecula</p>
-                <li>Por Conecção :</li>
-                <p style="text-indent: 30px;">Acontece em Líquidos ou Gáses</p>
-                <li>Por Irradiação :</li>
-                <p style="text-indent: 30px;">Acontece em qualquer estado Físico, Acontece em qualquer estado Físico e não transporta Matéria.</p>
-            </ul>
+                <img src="imagens/Matematica/log_exemplo1.png" alt="Logaritimo exemplo 1" width="640" height="174">
 
-            <!-- Typical Device BreakPoints :
-            Pequenas telas : até 600px
-            Celulares : 600px até 768px
-            Tablets : 768px até 992px
-            Desktop : 992px até 1200px
-            Grandes Telas : acima de 1200px--> 
+             </article>
+            Conteúdo
+        </div>
 
-        </article>
     </main>
 </body>
 </html>
